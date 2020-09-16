@@ -3,7 +3,13 @@
 <suite name="TripBuilderSuite">
   <test thread-count="5" name="TripBuilderTest">
     <classes>
+      <class name="Get_PKG.LookUps_GetSightseeings"/>
+      <class name="Get_PKG.Get_Method_Create"/>
+      <class name="Get_PKG.LookUps_GetPorts"/>
+      <class name="Get_PKG.LookUps_GetTransporter"/>
+      <class name="Get_PKG.Products_ListProducts"/>
       <class name="POST_PKG.POST_Method"/>
+      <class name="Get_PKG.LookUps_GetCommonProductBuilder"/>
     </classes>
   </test> <!-- TripBuilderTest -->
 </suite> <!-- TripBuilderSuite -->
